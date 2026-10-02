@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renewal Analysis — 2701 Raehn Street | Verandah Properties</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--teal:#008C82;--teal-deep:#00625B;--gold:#C9A227;--charcoal:#1A1A1A;
+--body:#1F1F1F;--muted:#5A5651;--strong:#0F0F0F;--line:#E2DED7;--paper:#FBFAF7;--panel:#F3F1EC;
+--red:#B5543C;--rose:#D4886F;--green:#4E8C6A;--slate:#6B7C8C}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--body);font-family:'Jost',system-ui,sans-serif;font-weight:400;font-size:16.5px;line-height:1.68}
+.wrap{max-width:900px;margin:0 auto;padding:0 26px}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:600;color:var(--charcoal)}
+h1{font-size:2.5rem;line-height:1.1;margin:0 0 .4rem}
+h2{font-size:1.8rem;line-height:1.2;margin:0 0 .8rem}
+h3{font-size:1.18rem;margin:1.4rem 0 .45rem}
+p{margin:0 0 1rem;max-width:74ch}
+b,strong{font-weight:600;color:var(--strong)}
+ul{margin:0 0 1rem;padding-left:1.2rem;max-width:74ch}
+li{margin-bottom:.5rem}
+.mast{background:var(--charcoal);color:#F5F3EE;padding:28px 0 30px}
+.brandline{display:flex;align-items:baseline;gap:13px;flex-wrap:wrap}
+.mark{width:33px;height:33px;border-radius:50%;background:var(--teal);color:#fff;font-family:'Cormorant Garamond',serif;font-size:21px;display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;transform:translateY(5px)}
+.brandname{font-family:'Cormorant Garamond',serif;font-size:1.4rem;color:#F5F3EE}
+.mast .tag{color:#A9A49C;font-size:.83rem;margin-left:auto;text-align:right;line-height:1.5}
+.kicker{color:var(--gold);font-size:.9rem;margin:22px 0 4px}
+.mast h1{color:#FBFAF7;margin-top:4px}
+.mast .sub{color:#B8B2A8;margin:0;font-size:1rem}
+.rec{background:var(--teal);color:#fff;padding:32px 0 30px}
+.rec h2{color:#fff;font-size:1.5rem;margin-bottom:.3rem}
+.rec .lead{color:#D6EDEA;max-width:70ch;margin-bottom:24px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(255,255,255,.28);border-radius:10px;overflow:hidden}
+.step{background:var(--teal);padding:20px}
+.step .k{font-size:.82rem;color:#CDE8E5;margin-bottom:6px}
+.step .v{font-family:'Cormorant Garamond',serif;font-size:2.4rem;line-height:1;color:#fff}
+.step .n{font-size:.87rem;color:#CDE8E5;margin-top:7px;line-height:1.45}
+.step:first-child{background:var(--teal-deep)}
+section{padding:38px 0;border-top:1px solid var(--line)}
+.snum{color:var(--teal-deep);font-size:.9rem;margin:0 0 .2rem}
+h2 em{font-style:italic;font-weight:400;color:var(--teal-deep)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));border:1px solid var(--line);border-radius:10px;overflow:hidden;background:#fff;margin:0 0 20px}
+.fact{padding:14px 17px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}
+.fact .k{font-size:.79rem;color:var(--muted);margin-bottom:2px}
+.fact .v{font-weight:600;color:var(--strong)}
+.confirm{color:#8A6D0B;background:#FBF3D8;padding:1px 7px;border-radius:4px;font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--line);border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:0 0 20px}
+.st{background:#fff;padding:18px}
+.st .v{font-family:'Cormorant Garamond',serif;font-size:2rem;line-height:1.05;color:var(--teal-deep)}
+.st .v.warn{color:var(--red)}
+.st .k{font-size:.85rem;color:var(--muted);margin-top:5px;line-height:1.45}
+.pull{border-left:4px solid var(--gold);background:#fff;padding:19px 24px;border-radius:0 8px 8px 0;margin:0 0 22px}
+.pull p:last-child{margin-bottom:0}
+.anchor{background:#fff;border:1px solid var(--line);border-top:4px solid var(--gold);border-radius:10px;padding:22px 26px;margin:0 0 22px}
+.anchor h3{margin-top:0;font-size:1.3rem}
+.anchor .grid{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;margin:14px 0 0}
+.anchor .row{display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid var(--line);font-size:.94rem}
+.anchor .row b{color:var(--teal-deep)}
+.box{background:#fff;border:1px solid var(--line);border-radius:10px;padding:21px 24px;margin:0 0 20px}
+.box h3{margin-top:0}
+.box p:last-child{margin-bottom:0}
+details{border:1px solid var(--line);border-radius:9px;background:#fff;margin:0 0 14px}
+summary{cursor:pointer;padding:15px 19px;font-weight:600;color:var(--teal-deep);list-style:none;display:flex;justify-content:space-between;align-items:center;gap:16px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.45rem;color:var(--gold);line-height:1;flex:0 0 auto}
+details[open] summary::after{content:"\2212"}
+summary:hover{background:var(--panel)}
+.dbody{padding:2px 19px 17px}
+.dbody > *:last-child{margin-bottom:0}
+.tscroll{overflow-x:auto;margin:0 0 14px}
+table{border-collapse:collapse;width:100%;font-size:.88rem;background:#fff;min-width:680px}
+th{background:var(--panel);color:var(--strong);font-weight:600;text-align:left;padding:10px 11px;border-bottom:2px solid var(--line);white-space:nowrap}
+td{padding:10px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+tr.hi td{background:#E6F3F1;font-weight:600}
+tr.gold td{background:#FBF3D8}
+td.num,th.num{text-align:right;white-space:nowrap}
+caption{caption-side:bottom;text-align:left;color:var(--muted);font-size:.86rem;padding-top:9px}
+.pill{display:inline-block;font-size:.77rem;padding:2px 8px;border-radius:20px;font-weight:500}
+.fast{background:#DFF0EC;color:#00625B}.slow{background:#F6E3DE;color:#8A3B26}
+.chart{background:#fff;border:1px solid var(--line);border-radius:10px;padding:24px 26px;margin:0 0 22px}
+.chart h3{margin:0 0 4px}
+.chart .cap{font-size:.9rem;color:var(--muted);margin:0 0 18px}
+.bar{display:grid;grid-template-columns:190px 1fr;gap:13px;align-items:center;margin-bottom:11px;font-size:.9rem}
+.track{background:var(--panel);border-radius:4px;height:26px;overflow:hidden}
+.fill{height:26px;border-radius:4px;display:flex;align-items:center;justify-content:flex-end;padding-right:10px;color:#fff;font-weight:600;font-size:.85rem;white-space:nowrap}
+.fill.t{background:var(--teal)}.fill.g{background:var(--gold)}.fill.r{background:var(--red)}.fill.s{background:var(--slate)}.fill.gr{background:var(--green)}
+.src{font-size:.85rem;color:var(--muted);margin:14px 0 0;padding-top:13px;border-top:1px solid var(--line)}
+footer{background:var(--charcoal);color:#B8B2A8;padding:30px 0;font-size:.89rem}
+footer .sig{font-family:'Cormorant Garamond',serif;font-size:1.2rem;color:var(--gold);margin-bottom:8px}
+footer a{color:#8FD2CB}
+@media(max-width:720px){body{font-size:16px}h1{font-size:1.95rem}h2{font-size:1.45rem}.steps{grid-template-columns:1fr}.anchor .grid{grid-template-columns:1fr}.mast .tag{margin-left:0;width:100%;text-align:left}.bar{grid-template-columns:120px 1fr;font-size:.82rem}}
+@media print{body{background:#fff}section{page-break-inside:avoid}summary::after{content:""}}
+</style>
+</head>
+<body>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="brandline">
+      <span class="mark">V</span>
+      <span class="brandname">Verandah Properties, LLC</span>
+      <span class="tag">Renewal Analysis<br>October 2, 2026</span>
+    </div>
+    <p class="kicker">Delaney Park · Orlando</p>
+    <h1>2701 Raehn Street</h1>
+    <p class="sub">Orlando, FL 32806 · Single-family · 3 bed / 2.5 bath · 1,275 sq ft · No garage, paver parking · Yard · Built 2010</p>
+  </div>
+</header>
+
+<div class="rec">
+  <div class="wrap">
+    <h2>My recommendation</h2>
+    <p class="lead">The rent is below where this home could be, and an increase is justified. What I would not do is reach too far in one year — because in this market the cost of being wrong is far greater than the gain from being right.</p>
+    <div class="steps">
+      <div class="step"><div class="k">Current rent</div><div class="v">$2,250</div><div class="n">In place one year. Residents pay on time, every time.</div></div>
+      <div class="step"><div class="k">Recommended renewal</div><div class="v">$2,395</div><div class="n">An increase of $145, or 6.4% — $1,740 across the year.</div></div>
+      <div class="step"><div class="k">Comparable homes sitting</div><div class="v">3 of 7</div><div class="n">Unleased right now at 42, 50 and 102 days. That is the risk this decision turns on.</div></div>
+    </div>
+  </div>
+</div>
+
+<div class="wrap">
+
+<section style="border-top:none">
+  <p class="snum">Section One</p>
+  <h2>What the market says</h2>
+  <p>I reviewed seven comparable three-bedroom homes in the surrounding area — four leased this year, three still available.</p>
+
+  <div class="tscroll">
+  <table>
+    <thead><tr><th>Property</th><th class="num">Sq ft</th><th class="num">Built</th><th>Parking</th><th class="num">Rent</th><th class="num">Days</th><th>Status</th></tr></thead>
+    <tbody>
+      <tr><td>1313 Catherine St</td><td class="num">1,424</td><td class="num">1925</td><td>1-car garage</td><td class="num">$2,499</td><td class="num">54</td><td>Leased — renovated</td></tr>
+      <tr><td>1414 Beaver Pl <span style="color:var(--muted)">(4 bed)</span></td><td class="num">1,700</td><td class="num">1946</td><td>2 spaces</td><td class="num">$2,450</td><td class="num"><span class="pill slow">223</span></td><td>Leased</td></tr>
+      <tr><td>710 Winthrop Pl <span style="color:var(--muted)">(1 bath)</span></td><td class="num">1,321</td><td class="num">1949</td><td>1-car garage</td><td class="num">$2,250</td><td class="num">14</td><td>Leased</td></tr>
+      <tr><td>3109 Nancy St</td><td class="num">1,313</td><td class="num">1957</td><td>None</td><td class="num">$2,090</td><td class="num"><span class="pill fast">7</span></td><td>Leased</td></tr>
+      <tr class="bad"><td>1455 Catherine St <span style="color:var(--muted)">(3/2.5)</span></td><td class="num">1,942</td><td class="num">2008</td><td>2-car garage</td><td class="num">$2,995</td><td class="num"><span class="pill slow">102</span></td><td>Still available</td></tr>
+      <tr class="bad"><td>1903 Curry Ford Rd</td><td class="num">1,452</td><td class="num">1935</td><td>None</td><td class="num">$3,375</td><td class="num"><span class="pill slow">42</span></td><td>Still available</td></tr>
+      <tr class="bad"><td>3006 E Anderson St</td><td class="num">1,344</td><td class="num">1957</td><td>None</td><td class="num">$2,500</td><td class="num"><span class="pill slow">50</span></td><td>Still available</td></tr>
+      <tr class="hi"><td>2701 Raehn St — your home</td><td class="num">1,275</td><td class="num">2010</td><td>Pavers</td><td class="num">$2,250</td><td class="num">—</td><td>Occupied</td></tr>
+    </tbody>
+    <caption>Stellar MLS, October 2, 2026. Your home is the smallest in the set.</caption>
+  </table>
+  </div>
+
+  <h3>What the spread tells us</h3>
+  <p>What leased came in between <b>$2,090 and $2,499</b>. What is asking more than that — $2,500, $2,995 and $3,375 — is still sitting.</p>
+  <p>Very little of the spread is explained by size. It is explained by <b>age and parking</b>, and both of those run against your home.</p>
+</section>
+
+<section>
+  <p class="snum">Section Two</p>
+  <h2>The year it was built <em>is working against you</em></h2>
+  <p>This is the most useful pattern in the data, and it is not one most owners would anticipate.</p>
+
+  <div class="tscroll">
+  <table>
+    <thead><tr><th>Year built</th><th class="num">Result</th><th class="num">Days</th></tr></thead>
+    <tbody>
+      <tr><td><b>1925</b> — renovated character home</td><td class="num">$2,499</td><td class="num">54</td></tr>
+      <tr><td><b>1957</b> — priced correctly</td><td class="num">$2,090</td><td class="num"><span class="pill fast">7</span></td></tr>
+      <tr class="bad"><td><b>2008</b> — larger, two-car garage</td><td class="num">$2,995 asking</td><td class="num"><span class="pill slow">102, unleased</span></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <p>Every home that leased in this set was built before 1960, or is a restored older home with genuine character. The 1925 property, renovated, held <b>$2,499</b>. A 1957 home priced correctly went in <b>seven days</b>.</p>
+
+  <div class="pull">
+    <p><b>The only home in this set built after 2000 is the one that has not leased.</b> 1455 Catherine Street, built 2008, is 667 square feet larger than your home with a two-car garage — and it has been sitting for <b>102 days at $2,995</b>.</p>
+  </div>
+
+  <p>That is the clearest ceiling in this analysis. The late-2000s band has neither the finishes renters expect from newer construction nor the character of a restored older home. If a bigger home of that vintage with two garage bays cannot move at $2,995, your home will not approach it.</p>
+</section>
+
+<section>
+  <p class="snum">Section Three</p>
+  <h2>Two more things <em>capping the number</em></h2>
+  <div class="two">
+    <div class="card bad">
+      <h3>It is the smallest home in the set</h3>
+      <p>At 1,275 square feet, your home is smaller than all eight comparables. The next smallest is 1,313.</p>
+    </div>
+    <div class="card bad">
+      <h3>There is no garage</h3>
+      <p>Paver parking against one-car and two-car garages on several competing homes. It is a small thing on paper and a real one to a renter comparing two listings.</p>
+    </div>
+  </div>
+  <p>What works in your favor is the <b>three bedroom, two and a half bath configuration</b>, which is strong at this size, and the <b>32806 location</b>, which is genuinely desirable. Those are why the home supports $2,500 at all.</p>
+</section>
+
+<section>
+  <p class="snum">Section Four</p>
+  <h2>The part that decides this: <em>homes are sitting</em></h2>
+  <p>Everything above describes what your home is worth. This section describes what it would cost to find out.</p>
+
+  <div class="stats">
+    <div class="st"><div class="v warn">3 of 7</div><div class="k">Comparable homes currently unleased</div></div>
+    <div class="st"><div class="v warn">42, 50, 102</div><div class="k">Days those three have been sitting</div></div>
+    <div class="st"><div class="v">77</div><div class="k">Average days to lease, leased comps</div></div>
+    <div class="st"><div class="v warn">223</div><div class="k">Longest, for a four-bedroom home</div></div>
+  </div>
+
+  <p>Three of the seven comparable homes are on the market right now and <b>none of them has leased</b> — at 42, 50 and 102 days. Among the homes that did lease this year, the average was <b>77 days</b>.</p>
+  <p>And we have direct evidence from this property. <b>2701 Raehn sat for a considerable period before these residents took it.</b> That was not a pricing failure — it reflects a home that draws from a narrower pool than most, for the reasons set out above.</p>
+
+  <h3>What a turnover would actually cost</h3>
+  <p>Here is each scenario measured the same way: what you actually collect over the next twelve months.</p>
+
+  <div class="tscroll">
+  <table>
+    <thead><tr><th>Scenario</th><th class="num">Collected over 12 months</th><th class="num">True monthly rent</th></tr></thead>
+    <tbody>
+      <tr class="hi"><td><b>They renew at $2,395</b></td><td class="num">$28,740</td><td class="num"><b>$2,395</b></td></tr>
+      <tr class="bad"><td>They leave — re-let at a <b>higher</b> $2,450 after 30 days</td><td class="num">$24,984</td><td class="num">$2,082</td></tr>
+      <tr class="bad"><td>They leave — re-let at $2,450 after 60 days</td><td class="num">$22,567</td><td class="num">$1,881</td></tr>
+      <tr class="bad"><td>They leave — re-let at $2,450 after 90 days</td><td class="num">$20,151</td><td class="num">$1,679</td></tr>
+    </tbody>
+    <caption>Turnover scenarios include approximately $2,000 for make-ready, cleaning and placement. Twelve months measured from today.</caption>
+  </table>
+  </div>
+
+  <div class="big">
+    <div class="n neg">$3,756</div>
+    <p>Renewing at $2,395 collects <b>$3,756 more</b> over twelve months than letting them go and re-letting at an even <b>higher</b> $2,450 after a 30-day vacancy — and 30 days would be a fast result in this market.</p>
+    <p>At 60 days, renewing is <b>$6,173</b> ahead. At 90 days, <b>$8,589</b>.</p>
+  </div>
+
+  <p>Put simply: <b>you cannot win this by pushing.</b> Even achieving a higher rent on the open market leaves you behind, because the vacancy and the turnover cost more than the increase is ever worth.</p>
+</section>
+
+<section>
+  <p class="snum">Section Five</p>
+  <h2>Why $2,395</h2>
+  <div class="box">
+    <h3>It captures a real increase</h3>
+    <p>$145 a month, or <b>$1,740 across the year</b>. That is a 6.4% increase on residents who have been in place a year and pay on time without exception.</p>
+  </div>
+  <div class="box">
+    <h3>It is small enough that they absorb it</h3>
+    <p>A resident facing a 6% increase renews. A resident facing a 12% increase starts looking — and once they start looking, you are exposed to everything in Section Four whether they move or not.</p>
+  </div>
+  <div class="box">
+    <h3>It keeps a known quantity in place</h3>
+    <p>Excellent payers are worth more than the last hundred dollars. You know what you have. The next household is an unknown, placed after a vacancy, in a market where three of eight comparable homes cannot find a renter.</p>
+  </div>
+  <div class="box">
+    <h3>It leaves room to take again next year</h3>
+    <p>A measured increase now, and another at the next renewal, moves the rent upward across two cycles without ever putting the occupancy at risk. The market will likely have strengthened by then as well.</p>
+  </div>
+
+  <p><b>If you would prefer to push further</b>, I will prepare whatever number you decide on. I would only want you to go in knowing that a few hundred dollars of annual gain is being risked against a turnover that costs considerably more than that if the home takes more than a week to fill — and nothing in the current data suggests it would.</p>
+</section>
+
+<section>
+  <p class="snum">Section Six</p>
+  <h2>Summary</h2>
+  <ul>
+    <li>The rent is below where this home could be, and <b>an increase is justified</b>. The question is how far to reach in one year.</li>
+    <li><b>The build year is working against you.</b> Everything that leased was built before 1960 or restored with real character. <b>The only post-2000 home in the set is unleased after 102 days</b> — and it is larger than yours with a two-car garage.</li>
+    <li>Your home is the <b>smallest in the comparable set</b> and has <b>no garage</b>.</li>
+    <li><b>Three of seven comparable homes are sitting unleased right now</b> at 42, 50 and 102 days. Leased homes averaged 77 days.</li>
+    <li><b>This property sat for a considerable period before these residents took it.</b></li>
+    <li>Renewing at $2,395 collects <b>$3,756 more</b> over twelve months than re-letting at an even higher rent after just a 30-day vacancy — and <b>$6,173 more</b> at 60 days.</li>
+    <li><b>My recommendation: renew at $2,395</b>, and take the remainder next year.</li>
+  </ul>
+</section>
+
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="sig">Curating Orlando's Finest Rental Portfolio</div>
+    <p><b>Verandah Properties, LLC</b><br>Pamela Syvertson, Owner &amp; Broker · License CQ1048619 · <a href="tel:4078550331">407-855-0331</a></p>
+    <p style="font-size:.84rem;color:#8C877F;max-width:74ch">Market data sourced from Stellar MLS as of October 2, 2026, and is deemed reliable but not guaranteed. Comparable analysis reflects three and four-bedroom single-family rentals of 1,313 to 1,942 square feet in the surrounding Orlando submarket. Turnover estimates are illustrative and vary by property condition. This is an opinion of value, not an appraisal.</p>
+  </div>
+</footer>
+
+</body>
+</html>
